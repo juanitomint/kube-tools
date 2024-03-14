@@ -246,6 +246,7 @@ krun() {
 }
 
 # @description Run an epheremal pod with the image you want browsing from local docker images
+# If you have a file called .docker-images in your home directory it will use that
 # @example
 #   $  krunbrowse
 krunbrowse() {

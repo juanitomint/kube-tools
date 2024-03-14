@@ -337,6 +337,7 @@ $  krun python:3-slim bash --env=VAR1=value1 --env=VAR2=value2 --port=8080
 ### krunbrowse()
 
 Run an epheremal pod with the image you want browsing from local docker images
+If you have a file called .docker-images in your home directory it will use that
 
 #### Example
 
